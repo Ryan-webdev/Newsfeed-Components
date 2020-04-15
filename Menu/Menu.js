@@ -35,13 +35,14 @@ let menuItems = [
 */
 //selecting HTML element
 const menuButton = document.querySelector('.menu-button')
+const header = document.querySelector('.header')
 
 //function for the menu button
 function menuList(item){
   //menu div
   let menu = document.createElement('div')
   menu.classList.add('menu');
-  menuButton.appendChild(menu);
+  header.appendChild(menu);
 
   //ul
   let ul = document.createElement('ul')
